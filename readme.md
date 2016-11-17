@@ -1,7 +1,10 @@
 #Environmental sensing with SmartEverything
 
 This sketch is targeted to [http://smarteverything.it](SmartEverything) Arduino compatible board.
-The board is fitted with multiple sensors and a SigFox communication module. This sketch periodically read the HTS211 temperature/humidity sensor, the LPS25H pressure/temperature sensor and the VL6180 light sensor; pack the values in a message and send it to the SIgFox network.
+
+The board is fitted with multiple sensors and a SigFox communication module.
+
+This sketch periodically read the HTS211 temperature/humidity sensor, the LPS25H pressure/temperature sensor and the VL6180 light sensor; pack the values in a message and send it to the SigFox network.
 
 ##View data on the SIGFOX Cloud
 
